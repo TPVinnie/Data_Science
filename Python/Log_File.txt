@@ -1,0 +1,28 @@
+
+ERROR:root:There is an error in the program
+CRITICAL:root:There is a problem with the design
+ERROR:root:unsupported operand type(s) for /: 'str' and 'str'
+Traceback (most recent call last):
+  File "/var/folders/yn/bgdm1mhs37b6r_38shjd1v5c0000gn/T/ipykernel_14508/2102212867.py", line 6, in <module>
+    c = a/b
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "/var/folders/yn/bgdm1mhs37b6r_38shjd1v5c0000gn/T/ipykernel_14508/806829695.py", line 6, in <module>
+    c = a/b
+ZeroDivisionError: division by zero
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "/var/folders/yn/bgdm1mhs37b6r_38shjd1v5c0000gn/T/ipykernel_14508/2037648605.py", line 6, in <module>
+    c = int(a)/int(b)
+ZeroDivisionError: division by zero
+ERROR:root:name 'ab' is not defined
+Traceback (most recent call last):
+  File "/var/folders/yn/bgdm1mhs37b6r_38shjd1v5c0000gn/T/ipykernel_14508/1293559300.py", line 4, in <module>
+    print(ab)
+NameError: name 'ab' is not defined
+ERROR:root:name 'ab' is not defined
+Traceback (most recent call last):
+  File "/var/folders/yn/bgdm1mhs37b6r_38shjd1v5c0000gn/T/ipykernel_14508/3307424723.py", line 4, in <module>
+    print(ab)
+NameError: name 'ab' is not defined
