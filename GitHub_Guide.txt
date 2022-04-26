@@ -1,0 +1,20 @@
+
+
+terminal guide
+
+cd to any directory (folder): cd full_path
+Check files present in the current directory: ls
+Check all files (includes hidden files): ls -al 
+
+
+Git/GitHub
+Check if git is already installed: git --version
+Download and install git from: https://git-scm.com/downloads
+Make a folder a git repo: cd to folder then use: git init
+Delete(remove) git from folder: rm -rf .git
+
+Push files to GitHub
+While in Git Directory;
+--Check git status: git status
+--Commit files to git: git commit -m 'Enter message'
+--Push files to GitHub: git push
