@@ -1,10 +1,11 @@
 
-
-terminal guide
+                     Git Cheat Sheet: https://useyourloaf.com/blog/git-cheat-sheet/
+Terminal Guide
 
 cd to any directory (folder): cd full_path
 Check files present in the current directory: ls
 Check all files (includes hidden files): ls -al 
+Create a file: touch file_name.extension
 
 
 Git/GitHub
@@ -13,8 +14,26 @@ Download and install git from: https://git-scm.com/downloads
 Make a folder a git repo: cd to folder then use: git init
 Delete(remove) git from folder: rm -rf .git
 
+Create a new branch: git checkout branch_name
+Create a new branch and switch to it: git checkout -b branch_name
+Switch to any branch: git checkout branch name
+
+Git a log of your git activity: git log
+
 Push files to GitHub
 While in Git Directory;
 --Check git status: git status
+--Check git brank: git branch
+--add files ti git: git add file_name (Add all files: git add .)
 --Commit files to git: git commit -m 'Enter message'
 --Push files to GitHub: git push
+
+In summary:
+Commands
+   - terminal - goto the location of the folder/project
+   - git init (Only once)
+   - git branch
+   - git status
+   - git add
+   - git commit -m "message of commit”
+   - git push
